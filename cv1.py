@@ -1,6 +1,6 @@
 import cv2
 
-#Read images
+#Read images (basic)
 
 img = cv2.imread('lena.jpg' , 1) # 0(grayscale) , 1(colored) , -1(alpha channel)
 print(img)
